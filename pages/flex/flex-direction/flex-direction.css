@@ -1,0 +1,7 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	}
+	.green{ background: #00FF00 ; }
+	.txt{ font-size: 20px;width: 250upx; height: 100upx;}

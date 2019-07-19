@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"nextheoolworld","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"uni-app","usingComponents":{}}},"pages/hello/hello.html":{"window":{"navigationBarTitleText":"你好app","usingComponents":{}}},"pages/events/events.html":{"window":{"usingComponents":{}}},"pages/vif/vif.html":{"window":{"usingComponents":{}}},"pages/vfor/vfor.html":{"window":{"usingComponents":{}}},"pages/vforkey/vforkey.html":{"window":{"usingComponents":{}}},"pages/ifcomple/ifcomple.html":{"window":{"usingComponents":{}}},"pages/flex/flex-direction/flex-direction.html":{"window":{"usingComponents":{}}},"pages/flex/flex-wrap/flex-wrap.html":{"window":{"usingComponents":{}}},"pages/flex/justify-content/justify-content.html":{"window":{"usingComponents":{}}},"pages/flex/align-items/align-items.html":{"window":{"usingComponents":{}}},"pages/flex/align-content/align-content.html":{"window":{"usingComponents":{}}},"pages/flex/flex-items/flex-items.html":{"window":{"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"hello","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/hello/hello","pages/events/events","pages/vif/vif","pages/vfor/vfor","pages/vforkey/vforkey","pages/ifcomple/ifcomple","pages/flex/flex-direction/flex-direction","pages/flex/flex-wrap/flex-wrap","pages/flex/justify-content/justify-content","pages/flex/align-items/align-items","pages/flex/align-content/align-content","pages/flex/flex-items/flex-items"],"subPackages":[],"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"1.9.3","usingComponents":{}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

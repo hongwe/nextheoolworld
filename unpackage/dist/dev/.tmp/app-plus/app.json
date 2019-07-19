@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hello/hello",
+    "pages/events/events",
+    "pages/vif/vif",
+    "pages/vfor/vfor",
+    "pages/vforkey/vforkey",
+    "pages/ifcomple/ifcomple",
+    "pages/flex/flex-direction/flex-direction",
+    "pages/flex/flex-wrap/flex-wrap",
+    "pages/flex/justify-content/justify-content",
+    "pages/flex/align-items/align-items",
+    "pages/flex/align-content/align-content",
+    "pages/flex/flex-items/flex-items"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "hello",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "nextheoolworld",
+  "compilerVersion": "1.9.3",
+  "usingComponents": {}
+}

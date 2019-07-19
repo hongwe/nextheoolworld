@@ -1,0 +1,1 @@
+<view class="green" style="width:100%;height:300px;" bind:__l="__l"></view>

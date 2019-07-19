@@ -1,0 +1,15 @@
+
+.color{ 
+/*  #ifdef h5 */
+background: #080;
+/* #endif */
+/*  #ifdef APP-PLUS */
+background: #020;
+/* #endif */
+/*  #ifdef MP */
+background: #0f0;
+/* #endif */
+width: 375rpx;
+height: 375rpx;
+}
+

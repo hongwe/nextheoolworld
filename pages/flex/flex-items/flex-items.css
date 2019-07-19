@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.green {
+	background: #00FF00;
+	/* order: 1;flex-grow: 0; */
+	flex-shrink: 1;
+	flex-basis: 300upx;
+}
+
+.red {
+	background: #FF0000;
+	/* order: 2;flex-grow: 0; */
+}
+
+.blue {
+	background: #0000ff;
+	/* order: 3;flex-grow: 0; */
+	flex-shrink: 0;
+}
+
+.txt {
+	font-size: 20px;
+	width: 200upx;
+	height: 200upx;
+}

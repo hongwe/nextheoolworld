@@ -1,0 +1,27 @@
+
+.container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	/* justify-content:space-around; */
+	/* align-items: baseline; */
+	-webkit-box-align: baseline;
+	-webkit-align-items: baseline;
+	    -ms-flex-align: baseline;
+	        align-items: baseline;
+height: 800rpx;
+	background: #008800;
+}
+.green{ background: #00FF00 ;
+}
+.txt{ font-size: 20px;width: 100rpx;}
+

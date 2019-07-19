@@ -1,0 +1,30 @@
+<template>
+	<view class="container">
+		<view class="green txt">1</view>
+		<view class="green txt">2</view>
+		<view class="green txt">3</view>
+		<view class="green txt">4</view>
+		<view class="green txt">5</view>
+		<view class="green txt">6</view>
+		<view class="green txt">7</view>
+		<view class="green txt">8</view>
+		<view class="green txt">9</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+@import url("flex-wrap.css");
+</style>

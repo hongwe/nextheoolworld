@@ -1,0 +1,18 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	  
+	/* justify-content:space-around;
+	justify-content:flex-start;
+	justify-content:flex-end;
+	justify-content:center;
+	justify-content:space-between; */
+	
+	
+	justify-content:space-around;
+	height: 800upx;
+	background: #008800;
+	}
+.green{ background: #00FF00 ; }
+.txt{ font-size: 20px;width: 150upx; height: 100upx;}

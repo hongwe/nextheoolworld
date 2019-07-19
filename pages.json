@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+			
+			
+			
+			
+		}
+		
+	    ,{
+           			"path" : "pages/hello/hello",
+           "style" : {
+           	
+           	"navigationBarTitleText": "你好app"
+           }
+        }
+        
+        ,
+		{
+		    "path" : "pages/events/events",
+		    "style" : {}
+		}
+		,
+		{
+            "path" : "pages/vif/vif",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/vfor/vfor",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/vforkey/vforkey",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ifcomple/ifcomple",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/flex/flex-direction/flex-direction",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/flex/flex-wrap/flex-wrap",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/flex/justify-content/justify-content",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/flex/align-items/align-items",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/flex/align-content/align-content",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/flex/flex-items/flex-items",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/flex/ailgn-self/ailgn-self",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "hello",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

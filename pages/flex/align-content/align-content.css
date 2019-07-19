@@ -1,0 +1,12 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* align-content: center; 
+	align-content: flex-start; 
+	align-content: flex-end ; */
+	align-content: space-between ;
+	height: 600upx;
+	}
+.green{ background: #00FF00 ; }
+.txt{ font-size: 20px;width: 150upx; height: 150upx;}
