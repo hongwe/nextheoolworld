@@ -1,2 +1,0 @@
-setCssToHead([".",[1],"color{ background: #080; background: #020; background: #0f0; width: ",[0,375],"; height: ",[0,375],"; }\n",],undefined,{path:"./pages/ifcomple/ifcomple.wxss"})();
-document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ifcomple/ifcomple.wxml') } }));

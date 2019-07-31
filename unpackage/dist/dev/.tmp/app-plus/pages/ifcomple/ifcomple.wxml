@@ -1,1 +1,0 @@
-<view bind:__l="__l"><view>ios/安卓编译</view><view>除去小程序 只在 ios/安卓/h5编译</view><view class="color"></view></view>

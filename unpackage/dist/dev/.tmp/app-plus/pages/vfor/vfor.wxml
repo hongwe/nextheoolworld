@@ -1,1 +1,0 @@
-<view bind:__l="__l"><block wx:for="{{studentArray}}" wx:for-item="stuObj" wx:for-index="stuIndex" wx:key="stuIndex"><view><view>{{"姓名:"+stuObj.name+",年龄:"+stuObj.age}}</view><view>技能:<block wx:for="{{stuObj.skill}}" wx:for-item="sk" wx:for-index="skIndex" wx:key="skIndex"><block>{{''+sk+','}}</block></block></view></view></block></view>
